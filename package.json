@@ -1,0 +1,19 @@
+{
+  "name": "fifty-fifty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archimonde12/fifty-fifty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archimonde12/fifty-fifty/issues"
+  },
+  "homepage": "https://github.com/archimonde12/fifty-fifty#readme"
+}

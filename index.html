@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thu Ha v1.0</title>
+</head>
+<style>
+    .black-rec {
+        width: 4.25px;
+        height:10px;
+        background-color: tomato;
+        margin-top: 1px;
+        margin-bottom: 3px;
+    }
+
+    .white-rec {
+        width: 4.25px;
+        height: 10px;
+        background-color: rgb(125, 124, 124);
+        margin-top: 1px;
+        margin-bottom: 3px;
+    }
+
+    .space {
+        width: 4.25px;
+        height: 10px;
+        margin-top: 1px;
+        margin-bottom: 3px;
+    }
+</style>
+
+<body>
+    <div id="ip" style="margin-bottom: 5px;">IP: ...</div>
+    <textarea id="req" name="w3review" rows="4" cols="50"
+        placeholder="Nhập dãy số từ [0,99] ngăn cách bới dấu cách ... VD:01 03 05 ..."></textarea>
+    <div></div>
+    <div id="heatmap-input" style="display: flex">
+        <p class="space"></p>
+    </div>
+    <div></div>
+    <button id="copy-input-btn" onclick="copyInputText()">Sao chép ô nhập</button>
+    <button id="switch-style-btn" onclick="switchStyle()">Kiểu dấu cách</button>
+    <div></div>
+    <button id="button" type="button">Đảo ngược</button>
+    <div></div>
+    <textarea id="res" name="w3review" rows="4" cols="50" disabled>
+
+    </textarea>
+  
+    <div></div>
+    <div id="heatmap-output" style="display: flex">
+        <p class="space"></p>
+    </div>
+    <div></div>
+    <button id="copy-btn" onclick="copyText()" disabled>Sao chép</button>
+    <div id="copy-10-input" ></div>
+    <div id="copy-10-output"></div>
+   
+    <script src="old_data.js"></script>
+    <script src="data_storage.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
